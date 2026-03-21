@@ -13,7 +13,8 @@ Que QA não é só encontrar falhas e sim a prevenção, reduzindo custos, evita
 - **Custo do Defeito:** Corrigir um erro na fase inicial é muito mais barato e menos estressante do que um "incêndio" em produção! 📉
 - **Mindset de Prevenção:** Saí do modo "caçar erro" para o modo "garantir que o valor seja entregue".
 
----
+- Ter um ciclo claro e bem gerido, assegura que o produto final atenda as expectativas do cliente, com um software de qualidade, seguro e se mantenha relevante ao longo do tempo.
+
 *Documentação em constante evolução...* 🌱
 
 ---
