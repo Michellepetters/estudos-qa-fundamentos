@@ -6,6 +6,7 @@ Bem-vindos ao meu cantinho de estudos! ✨ Aqui documento minha transição do s
 
 ## 🧬 O que aprendi sobre SDLC (Ciclo de Vida de Desenvolvimento de Software)
 Entendi que a qualidade não é uma fase isolada, mas um hábito que percorre todo o caminho do software.
+Que QA não é só encontrar falhas e sim a prevenção, reduzindo custos, evitar retrabalho, melhorar a qualidade do software e aumentar a satifação do cliente.
 
 ### 🔍 Meus Insights Principais:
 - **Early Testing:** Quanto mais cedo o QA entra (especialmente nos Requisitos), mais bugs evitamos.
