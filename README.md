@@ -15,3 +15,6 @@ Entendi que a qualidade não é uma fase isolada, mas um hábito que percorre to
 ---
 *Documentação em constante evolução...* 🌱
 
+---
+### 🗺️ Mapa do SDLC
+![Mapa do Ciclo de Vida](SDLC.png)
