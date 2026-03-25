@@ -41,5 +41,7 @@ O STLC é o processo específico que garante a qualidade em cada etapa do teste.
 Ao seguir um fluxo estruturado, o QA não está apenas ''caçando bugs'', está construindo previsibilidade, segurança e confiança na entrega. 
 Seguir o STCL é mais do que organização, é transformar o teste em um pilar estratégico para a qualidade final do software.
 
+---
+### 🗺️ Mapa do STLC
 ![Infográfico STLC](STCL.png) 
 
