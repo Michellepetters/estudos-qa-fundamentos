@@ -15,15 +15,17 @@ Que QA não é só encontrar falhas e sim a prevenção, reduzindo custos, evita
 
 - Ter um ciclo claro e bem gerido, assegura que o produto final atenda as expectativas do cliente, com um software de qualidade, seguro e se mantenha relevante ao longo do tempo.
 
-*Documentação em constante evolução...* 🌱
 
 ---
 ### 🗺️ Mapa do SDLC
 ![Mapa do Ciclo de Vida](SDLC.png)
 
 
+---
+
 
 ---
+
 
 ## 🧪 O que aprendi sobre STLC (Software Testing Life Cycle)
 
@@ -35,6 +37,9 @@ O STLC é o processo específico que garante a qualidade em cada etapa do teste.
 4. **Ambiente:** Preparação da infraestrutura (homologação).
 5. **Execução:** Rodar os testes e reportar os bugs encontrados.
 6. **Encerramento:** Analisar métricas e validar a prontidão do software.
+
+Ao seguir um fluxo estruturado, o QA não está apenas ''caçando bugs'', está construindo previsibilidade, segurança e confiança na entrega. 
+Seguir o STCL é mais do que organização, é transformar o teste em um pilar estratégico para a qualidade final do software.
 
 ![Infográfico STLC](STCL.png) 
 
