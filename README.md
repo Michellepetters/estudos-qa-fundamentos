@@ -34,5 +34,5 @@ O STLC é o processo específico que garante a qualidade em cada etapa do teste.
 5. **Execução:** Rodar os testes e reportar os bugs encontrados.
 6. **Encerramento:** Analisar métricas e validar a prontidão do software.
 
-![Infográfico STLC](./STLC.png) 
+![Infográfico STLC](STCL.png) 
 
