@@ -20,3 +20,19 @@ Que QA não é só encontrar falhas e sim a prevenção, reduzindo custos, evita
 ---
 ### 🗺️ Mapa do SDLC
 ![Mapa do Ciclo de Vida](SDLC.png)
+
+
+
+## 🧪 O que aprendi sobre STLC (Software Testing Life Cycle)
+
+O STLC é o processo específico que garante a qualidade em cada etapa do teste. Diferente de apenas "procurar erros", ele segue uma ordem lógica:
+
+1. **Análise de Requisitos:** Validar se os requisitos são testáveis.
+2. **Planejamento:** Definir estratégia, ferramentas e cronograma.
+3. **Modelagem (Design):** Criação dos casos de teste e cenários.
+4. **Ambiente:** Preparação da infraestrutura (homologação).
+5. **Execução:** Rodar os testes e reportar os bugs encontrados.
+6. **Encerramento:** Analisar métricas e validar a prontidão do software.
+
+![Infográfico STLC](./STLC.png) 
+
