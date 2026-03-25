@@ -23,6 +23,8 @@ Que QA não é só encontrar falhas e sim a prevenção, reduzindo custos, evita
 
 
 
+---
+
 ## 🧪 O que aprendi sobre STLC (Software Testing Life Cycle)
 
 O STLC é o processo específico que garante a qualidade em cada etapa do teste. Diferente de apenas "procurar erros", ele segue uma ordem lógica:
