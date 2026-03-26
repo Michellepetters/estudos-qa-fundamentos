@@ -43,5 +43,5 @@ Seguir o STCL é mais do que organização, é transformar o teste em um pilar e
 
 ---
 ### 🗺️ Mapa do STLC
-![Infográfico STLC](STCL.png) 
+![Infográfico STLC](STCL(2).png) 
 
