@@ -35,3 +35,5 @@ O objetivo deste modelo é garantir a qualidade desde a base, reduzindo custos d
 > "Trazer minha bagagem do suporte para o QA me permite entender que um 'bug' no topo da pirâmide muitas vezes é o sintoma de um teste que faltou na base. O foco no negócio é o que diferencia um teste comum de uma estratégia de qualidade real."
 
 ---
+
+![Pirâmide de Testes Hospitalar](./img/piramide.png)
