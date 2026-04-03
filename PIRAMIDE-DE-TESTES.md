@@ -36,4 +36,4 @@ O objetivo deste modelo é garantir a qualidade desde a base, reduzindo custos d
 
 ---
 
-![Pirâmide de Testes Hospitalar](./img/piramide.png)
+![Pirâmide de Testes Hospitalar](piramide.png)
