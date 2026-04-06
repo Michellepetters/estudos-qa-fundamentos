@@ -62,7 +62,7 @@ Exemplo: O 'Fio Solto' da Parametrização Hospitalar
 | Cenário (O "Fio Solto") | Questionamento de QA (Shift Left) | Resultado (Critério de Aceitação) |
 | :--- | :--- | :--- |
 | **Primeiro Acesso** | O médico é novo e não tem tela favorita. O sistema trava? | **CA 1:** Definir "Dashboard Geral" como tela padrão inicial. |
-| **Troca de Setor** | O médico mudou de setor e perdeu acesso à favorita. | **CA 2:** Sistema valida permissão e faz *fallback* para tela de avisos. |
+| **Troca de Setor** | O médico mudou de setor e perdeu acesso à tela favorita. | **CA 2:** Sistema valida permissão e faz *fallback* para tela de avisos. |
 | **Tempo de Resposta** | "O sistema deve ser rápido ao carregar." (Quanto é rápido?) | **CA 3:** A tela inicial deve carregar em no máximo 3 segundos. |
 
 Valor Gerado: Menos chamados no suporte e uma transição de setor mais suave para o usuário.
