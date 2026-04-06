@@ -1,4 +1,14 @@
+---
 
+## 📚 Sumário de Estudos
+
+Navegue pelos módulos de aprendizado deste repositório:
+
+* 🔼 [Estratégia: Pirâmide de Testes Hospitalar](./PIRAMIDE-DE-TESTES.md)
+* 📝 [Prática: Escrita de Cenários e Análise de Requisitos](./CENARIOS-DE-TESTE.md)
+* ⚙️ [Fundamentos: Ciclo de Vida do Software (SDLC)](#) *(Em breve)*
+
+---
 
 # 📚 Meus Estudos de QA: Fundamentos e SDLC
 
