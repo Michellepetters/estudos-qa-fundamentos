@@ -41,14 +41,15 @@ Além dos níveis de teste, aplico a mentalidade de **Shift Left**, que consiste
 
 ### Exemplo Prático: O Cenário do "Médico em Transição"
 
-**Requisito Inicial (Ambíguo):** > "O sistema deve permitir que o médico parametrize qual tela deseja visualizar ao realizar o login (ex: UTI ou Pediatria)."
+Exemplo: O 'Fio Solto' da Parametrização Hospitalar
 
-**O "Fio Solto" identificado pelo QA:**
-E se o médico for novo e não tiver parametrização? Ou, e se o RH mudar o médico de setor e ele perder o acesso à tela que ele marcou como favorita? Se o sistema tentar abrir uma tela sem permissão, ele vai travar?
+-> Requisito Inicial: "O médico escolhe sua tela inicial." (Muito ambíguo!)
 
-**Solução com Critérios de Aceitação (CA) bem definidos:**
-* **CA 1 (Default):** Caso não haja parametrização, o sistema **deve** carregar o "Dashboard de Comunicação Interna/Agenda" por padrão.
-* **CA 2 (Fallback/Segurança):** Se a tela favorita não estiver mais disponível no perfil do usuário, o sistema **deve** redirecioná-lo automaticamente para a tela padrão em vez de exibir um erro técnico.
+-> Questionamento de QA: E se o RH mudar o setor do médico e ele perder o acesso àquela tela escolhida?
+
+-> Critério de Aceitação Final: O sistema deve validar a permissão antes de carregar a tela favorita. Se não houver permissão, o sistema deve carregar o Dashboard Padrão (comunicação interna/agenda).
+
+Valor Gerado: Menos chamados no suporte e uma transição de setor mais suave para o usuário.
 
 ---
 
