@@ -1,6 +1,4 @@
----
-
-## 📚 Sumário de Estudos
+# 📚 Sumário de Estudos
 
 Navegue pelos módulos de aprendizado deste repositório:
 
@@ -8,7 +6,7 @@ Navegue pelos módulos de aprendizado deste repositório:
 * 📝 [Prática: Escrita de Cenários e Análise de Requisitos](./CENARIOS-DE-TESTE.md)
 * ⚙️ [Fundamentos: Ciclo de Vida do Software (SDLC)](#) *(Em breve)*
 
----
+***
 
 # 📚 Meus Estudos de QA: Fundamentos e SDLC
 
