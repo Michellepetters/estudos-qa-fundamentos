@@ -42,11 +42,34 @@ O objetivo deste modelo é garantir a qualidade desde a base, reduzindo custos d
 
 --
 
+---
+## 🧠 Refinamento de Requisitos e Shift Left (Análise de Ambiguidade)
+
+Além dos níveis de teste, aplico a mentalidade de **Shift Left**, que consiste em atuar no início do processo (análise de requisitos) para identificar "fios soltos" e ambiguidades antes do desenvolvimento começar.
+
+### Exemplo Prático: O Cenário do "Médico em Transição"
+
+Exemplo: O 'Fio Solto' da Parametrização Hospitalar
+
+-> Requisito Inicial: "O médico escolhe sua tela inicial." (Muito ambíguo!)
+
+-> Questionamento de QA: E se o RH mudar o setor do médico e ele perder o acesso àquela tela escolhida?
+
+-> Critério de Aceitação Final: O sistema deve validar a permissão antes de carregar a tela favorita. Se não houver permissão, o sistema deve carregar o Dashboard Padrão (comunicação interna/agenda).
+
 ### 🔍 Traduzindo Ambiguidade em Qualidade
 
 | Cenário (O "Fio Solto") | Questionamento de QA (Shift Left) | Resultado (Critério de Aceitação) |
 | :--- | :--- | :--- |
-| **Primeiro Acesso** | O médico é novo e não tem favorita. O sistema trava? | **CA 1:** Definir "Dashboard Geral" como tela padrão inicial. |
+| **Primeiro Acesso** | O médico é novo e não tem tela favorita. O sistema trava? | **CA 1:** Definir "Dashboard Geral" como tela padrão inicial. |
 | **Troca de Setor** | O médico mudou de setor e perdeu acesso à favorita. | **CA 2:** Sistema valida permissão e faz *fallback* para tela de avisos. |
 | **Tempo de Resposta** | "O sistema deve ser rápido ao carregar." (Quanto é rápido?) | **CA 3:** A tela inicial deve carregar em no máximo 3 segundos. |
+
+Valor Gerado: Menos chamados no suporte e uma transição de setor mais suave para o usuário.
+
+### 💡 Por que isso importa?
+Identificar essas lacunas no planejamento evita:
+1. **Retrabalho do Desenvolvedor:** Que não precisará refazer a lógica depois.
+2. **Chamados no Suporte:** Evita que o usuário encontre telas de erro por falta de permissão.
+3. **Frustração do Usuário:** Garante uma experiência fluida mesmo em cenários de exceção.
 
