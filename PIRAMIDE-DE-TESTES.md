@@ -35,5 +35,28 @@ O objetivo deste modelo é garantir a qualidade desde a base, reduzindo custos d
 > "Trazer minha bagagem do suporte para o QA me permite entender que um 'bug' no topo da pirâmide muitas vezes é o sintoma de um teste que faltou na base. O foco no negócio é o que diferencia um teste comum de uma estratégia de qualidade real."
 
 ---
+## 🧠 Refinamento de Requisitos e Shift Left (Análise de Ambiguidade)
 
+Além dos níveis de teste, aplico a mentalidade de **Shift Left**, que consiste em atuar no início do processo (análise de requisitos) para identificar "fios soltos" e ambiguidades antes do desenvolvimento começar.
+
+### Exemplo Prático: O Cenário do "Médico em Transição"
+
+**Requisito Inicial (Ambíguo):** > "O sistema deve permitir que o médico parametrize qual tela deseja visualizar ao realizar o login (ex: UTI ou Pediatria)."
+
+**O "Fio Solto" identificado pelo QA:**
+E se o médico for novo e não tiver parametrização? Ou, e se o RH mudar o médico de setor e ele perder o acesso à tela que ele marcou como favorita? Se o sistema tentar abrir uma tela sem permissão, ele vai travar?
+
+**Solução com Critérios de Aceitação (CA) bem definidos:**
+* **CA 1 (Default):** Caso não haja parametrização, o sistema **deve** carregar o "Dashboard de Comunicação Interna/Agenda" por padrão.
+* **CA 2 (Fallback/Segurança):** Se a tela favorita não estiver mais disponível no perfil do usuário, o sistema **deve** redirecioná-lo automaticamente para a tela padrão em vez de exibir um erro técnico.
+
+---
+
+### 💡 Por que isso importa?
+Identificar essas lacunas no planejamento evita:
+1. **Retrabalho do Desenvolvedor:** Que não precisará refazer a lógica depois.
+2. **Chamados no Suporte:** Evita que o usuário encontre telas de erro por falta de permissão.
+3. **Frustração do Usuário:** Garante uma experiência fluida mesmo em cenários de exceção.
+
+--
 ![Pirâmide de Testes Hospitalar](piramide.png)
