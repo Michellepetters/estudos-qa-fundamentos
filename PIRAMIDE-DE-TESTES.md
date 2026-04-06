@@ -34,6 +34,14 @@ O objetivo deste modelo é garantir a qualidade desde a base, reduzindo custos d
 
 > "Trazer minha bagagem do suporte para o QA me permite entender que um 'bug' no topo da pirâmide muitas vezes é o sintoma de um teste que faltou na base. O foco no negócio é o que diferencia um teste comum de uma estratégia de qualidade real."
 
+--
+--
+![Pirâmide de Testes Hospitalar](piramide.png)
+
+--
+
+--
+
 ---
 ## 🧠 Refinamento de Requisitos e Shift Left (Análise de Ambiguidade)
 
@@ -51,13 +59,9 @@ Exemplo: O 'Fio Solto' da Parametrização Hospitalar
 
 Valor Gerado: Menos chamados no suporte e uma transição de setor mais suave para o usuário.
 
----
-
 ### 💡 Por que isso importa?
 Identificar essas lacunas no planejamento evita:
 1. **Retrabalho do Desenvolvedor:** Que não precisará refazer a lógica depois.
 2. **Chamados no Suporte:** Evita que o usuário encontre telas de erro por falta de permissão.
 3. **Frustração do Usuário:** Garante uma experiência fluida mesmo em cenários de exceção.
 
---
-![Pirâmide de Testes Hospitalar](piramide.png)
